@@ -1,0 +1,75 @@
+<resources>
+    <!--
+     - - - - - - - - - - - - - - - - - - - - - -
+     -                THEME BASE                -
+     - - - - - - - - - - - - - - - - - - - - - -
+     -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="AppTheme">
+        <item name="colorPrimary">@color/colorDarkPrimary</item>
+        <item name="colorPrimaryDark">@color/colorDarkPrimaryDark</item>
+        <item name="colorAccent">@color/colorDarkAccent</item>
+    </style>
+
+    <!--
+     - - - - - - - - - - - - - - - - - - - - - -
+     -         THEME NO ACTION BAR             -
+     - - - - - - - - - - - - - - - - - - - - - -
+     -->
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.NoActionBar" parent="AppTheme.Dark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--
+     - - - - - - - - - - - - - - - - - - - - - -
+     -         THEME NO ANIMATION              -
+     - - - - - - - - - - - - - - - - - - - - - -
+     -->
+    <!--// With Action Bar -->
+    <style name="AppTheme.NoAnimation" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="AppTheme.Dark.NoAnimation" parent="AppTheme.Dark">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <!--// No Action Bar -->
+    <style name="AppTheme.NoActionBar.NoAnimation" parent="AppTheme.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="AppTheme.Dark.NoActionBar.NoAnimation" parent="AppTheme.Dark.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <!--
+     - - - - - - - - - - - - - - - - - - - - - -
+     -              BASE STYLE                 -
+     - - - - - - - - - - - - - - - - - - - - - -
+     -->
+    <style name="BaseStyle" parent="AppTheme.Dark.NoActionBar">
+        <item name="android:windowBackground">@color/splashBackgroundColor</item>
+        <item name="colorBackgroundFloating">@color/splashBackgroundColor</item>
+    </style>
+    <style name="BaseStyle.SplashTheme" parent="AppTheme.Dark.NoActionBar">
+        <item name="android:windowBackground">@color/splashBackgroundColor</item>
+        <item name="colorBackgroundFloating">@color/splashBackgroundColor</item>
+    </style>
+    <style name="BaseStyle.NoAnimation" parent="AppTheme.Dark.NoActionBar.NoAnimation">
+        <item name="colorBackgroundFloating">@color/splashBackgroundColor</item>
+    </style>
+    <style name="BaseStyle.Intro" parent="AppTheme.Dark.NoActionBar.NoAnimation"/>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+
+    <!--
+     - - - - - - - - - - - - - - - - - - - - - -
+     -                 PROPERTY                -
+     - - - - - - - - - - - - - - - - - - - - - -
+     -->
+    <string name="app_name">Recipicious</string>
+
+    <!--
+     - - - - - - - - - - - - - - - - - - - - - -
+     -                 NAVIGATION              -
+     - - - - - - - - - - - - - - - - - - - - - -
+     -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!--
+    - - - - - - - - - - - - - - - - - - - - - -
+    -                 LANGUAGE                -
+    - - - - - - - - - - - - - - - - - - - - - -
+    -->
+    <!--// MENU /-->
+    <string name="language_Settings">Settings</string>
+    <string name="language_Search">Search</string>
+
+    <string name="language_About">About</string>
+    <string name="language_about">about</string>
+    <string name="language_back_exit">Press again to exit</string>
+    <string name="language_Version">Version</string>
+    <string name="language_version">Version</string>
+
+</resources>
